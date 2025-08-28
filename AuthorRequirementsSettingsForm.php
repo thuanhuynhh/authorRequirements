@@ -48,6 +48,12 @@ class AuthorRequirementsSettingsForm extends Form
         $plugin = $this->_plugin;
 
         $this->setData('emailOptional', $plugin->getSetting($contextId, 'emailOptional'));
+        $this->setData('familyNameRequired', $plugin->getSetting($contextId, 'familyNameRequired'));
+        $this->setData('defaultCountry', $plugin->getSetting($contextId, 'defaultCountry'));
+        $this->setData('authorUserGroupOnly', $plugin->getSetting($contextId, 'authorUserGroupOnly'));
+        $this->setData('disableBio', $plugin->getSetting($contextId, 'disableBio'));
+        $this->setData('disableUrl', $plugin->getSetting($contextId, 'disableUrl'));
+        $this->setData('disablePreferredPublicName', $plugin->getSetting($contextId, 'disablePreferredPublicName'));
         parent::initData();
     }
 
@@ -56,7 +62,15 @@ class AuthorRequirementsSettingsForm extends Form
      */
     public function readInputData()
     {
-        $this->readUserVars(array('emailOptional'));
+        $this->readUserVars(array(
+            'emailOptional',
+            'familyNameRequired',
+            'defaultCountry',
+            'authorUserGroupOnly',
+            'disableBio',
+            'disableUrl',
+            'disablePreferredPublicName'
+        ));
         parent::readInputData();
     }
 
@@ -96,6 +110,13 @@ class AuthorRequirementsSettingsForm extends Form
         }
 
         $plugin->updateSetting($contextId, 'emailOptional', $isEmailOptional, 'bool');
+        $plugin->updateSetting($contextId, 'familyNameRequired', $this->getData('familyNameRequired'), 'bool');
+        $plugin->updateSetting($contextId, 'defaultCountry', $this->getData('defaultCountry'), 'bool');
+        $plugin->updateSetting($contextId, 'authorUserGroupOnly', $this->getData('authorUserGroupOnly'), 'bool');
+        $plugin->updateSetting($contextId, 'disableBio', $this->getData('disableBio'), 'bool');
+        $plugin->updateSetting($contextId, 'disableUrl', $this->getData('disableUrl'), 'bool');
+        $plugin->updateSetting($contextId, 'disablePreferredPublicName', $this->getData('disablePreferredPublicName'), 'bool');
+        
         return parent::execute(...$functionArgs);
     }
 }

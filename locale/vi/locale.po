@@ -1,0 +1,46 @@
+# Thuan Huynh <verypro.vn@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-05 03:17+0000\n"
+"Last-Translator: Thuan Huynh <verypro.vn@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"crossref/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.generic.authorRequirements.displayName"
+msgstr "Yêu cầu Tác giả"
+
+msgid "plugins.generic.authorRequirements.description"
+msgstr "Plugin này cho phép tùy chỉnh các yêu cầu và hạn chế trong form tác giả."
+
+msgid "plugins.generic.authorRequirements.settings.title"
+msgstr "Cài đặt Yêu cầu Tác giả"
+
+msgid "plugins.generic.authorRequirements.settings.description"
+msgstr "Cấu hình các yêu cầu và hạn chế trường trong form tác giả"
+
+msgid "plugins.generic.authorRequirements.settings.emailOptional"
+msgstr "Làm email tác giả tùy chọn"
+
+msgid "plugins.generic.authorRequirements.settings.familyNameRequired"
+msgstr "Bắt buộc họ tác giả"
+
+msgid "plugins.generic.authorRequirements.settings.defaultCountry"
+msgstr "Sử dụng quốc gia mặc định của tạp chí cho tác giả mới"
+
+msgid "plugins.generic.authorRequirements.settings.authorUserGroupOnly"
+msgstr "Ẩn lựa chọn vai trò (tự động chọn nhóm Tác giả)"
+
+msgid "plugins.generic.authorRequirements.settings.disableBio"
+msgstr "Ẩn trường tiểu sử (chuyển thành hidden input)"
+
+msgid "plugins.generic.authorRequirements.settings.disableUrl"
+msgstr "Ẩn trường URL (chuyển thành hidden input)"
+
+msgid "plugins.generic.authorRequirements.settings.disablePreferredPublicName"
+msgstr "Ẩn trường tên công khai ưu tiên (chuyển thành hidden input)" 

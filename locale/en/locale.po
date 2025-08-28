@@ -15,13 +15,31 @@ msgid "plugins.generic.authorRequirements.displayName"
 msgstr "Author Requirements"
 
 msgid "plugins.generic.authorRequirements.description"
-msgstr "This plugin allows author name and email fields to be made optional."
+msgstr "This plugin allows customization of author form requirements and restrictions."
 
 msgid "plugins.generic.authorRequirements.settings.title"
-msgstr "Optional fields"
+msgstr "Author Requirements Settings"
 
 msgid "plugins.generic.authorRequirements.settings.description"
-msgstr "Author fields to be made optional"
+msgstr "Configure author form field requirements and restrictions"
 
 msgid "plugins.generic.authorRequirements.settings.emailOptional"
-msgstr "Author email"
+msgstr "Make author email optional"
+
+msgid "plugins.generic.authorRequirements.settings.familyNameRequired"
+msgstr "Require author family name (last name)"
+
+msgid "plugins.generic.authorRequirements.settings.defaultCountry"
+msgstr "Use context's default country for new authors"
+
+msgid "plugins.generic.authorRequirements.settings.authorUserGroupOnly"
+msgstr "Hide contributor role selection (auto-select Author group)"
+
+msgid "plugins.generic.authorRequirements.settings.disableBio"
+msgstr "Hide biography field (convert to hidden input)"
+
+msgid "plugins.generic.authorRequirements.settings.disableUrl"
+msgstr "Hide URL field (convert to hidden input)"
+
+msgid "plugins.generic.authorRequirements.settings.disablePreferredPublicName"
+msgstr "Hide preferred public name field (convert to hidden input)"

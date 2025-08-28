@@ -1,6 +1,13 @@
 # Author Requirements Plugin
 
-This plugin allows certain author fields to be made optional.
+This plugin allows certain author fields to be made optional:
+ Make author email optional
+ Require author family name (last name)
+ Use context's default country for new authors
+ Hide contributor role selection (auto-select Author group)
+ Hide biography field (convert to hidden input)
+ Hide URL field (convert to hidden input)
+ Hide preferred public name field (convert to hidden input)
 
 ## Requirements
 * OJS/OMP 3.4.0 or higher
