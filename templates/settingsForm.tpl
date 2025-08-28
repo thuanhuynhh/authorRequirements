@@ -25,6 +25,12 @@
 {fbvFormArea id="authorRequirementsSettingsForm"}
     {fbvFormSection list=true description="plugins.generic.authorRequirements.settings.description"}
         {fbvElement type="checkbox" id="emailOptional" value="1" checked=$emailOptional label="plugins.generic.authorRequirements.settings.emailOptional"}
+        {fbvElement type="checkbox" id="familyNameRequired" value="1" checked=$familyNameRequired label="plugins.generic.authorRequirements.settings.familyNameRequired"}
+        {fbvElement type="checkbox" id="defaultCountry" value="1" checked=$defaultCountry label="plugins.generic.authorRequirements.settings.defaultCountry"}
+        {fbvElement type="checkbox" id="authorUserGroupOnly" value="1" checked=$authorUserGroupOnly label="plugins.generic.authorRequirements.settings.authorUserGroupOnly"}
+        {fbvElement type="checkbox" id="disableBio" value="1" checked=$disableBio label="plugins.generic.authorRequirements.settings.disableBio"}
+        {fbvElement type="checkbox" id="disableUrl" value="1" checked=$disableUrl label="plugins.generic.authorRequirements.settings.disableUrl"}
+        {fbvElement type="checkbox" id="disablePreferredPublicName" value="1" checked=$disablePreferredPublicName label="plugins.generic.authorRequirements.settings.disablePreferredPublicName"}
     {/fbvFormSection}
 {/fbvFormArea}
 
